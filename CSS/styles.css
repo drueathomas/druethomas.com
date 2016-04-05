@@ -1,0 +1,167 @@
+.container-fluid {
+	padding: 0;
+	overflow: hidden;
+
+}
+
+.row {
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+}
+
+
+
+/*--------Nav bar styles---------*/
+
+.nav {
+	padding-top: 15px;
+	position: relative;
+	z-index: 10;
+}
+
+.navbar {
+	rgba(255, 255, 255, .1);
+}
+
+.nav li {
+	font-family: Montserrat, sans-serif;
+	font-size: .75em;
+	color: slategrey;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+
+.nav .center {
+	display: inline-block;
+	float: none;
+	text-align: center;
+}
+
+.nav .text-left {
+	padding-left: 65px;
+}
+
+.nav a{
+	color: black;
+	padding-right: 25px;
+}
+
+.nav a:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+.nav .text-right {
+	padding-right: 40px;
+}
+
+.day {
+	font-family: Montserrat, sans-serif;
+	letter-spacing: 2px;
+	border: 2px solid #151515;
+	width: 30px;
+	padding: 3px 0 3px 3px;
+	display: inline-block;
+	color: #151515;
+
+
+}
+
+/*----------SPEAKEASE------------------------*/
+#speakease .content {
+	background-image:url("images/speakease_background.jpeg");
+  background-origin: content-box;
+  background-color: #0F1845;
+	padding: 15rem 0 12rem 0;
+	position:relative;
+
+
+}
+
+#speakease .row {
+	margin-left: auto;
+	margin-right: auto;
+	overflow: visible;
+	margin-bottom: 50px;
+	margin-top: 75px;
+	width: 300px;
+}
+
+
+#speakease .firstfont {
+  /* SPEAK-: */
+  font-family: Montserrat-Bold;
+  font-size: 55px;
+  color: #FFFFFF;
+  letter-spacing: 12.23px;
+  line-height: 140px;
+  position: absolute;
+  /*font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 144px;
+  color: #FFFFFF;
+  letter-spacing: 32.02px;
+  line-height: 175px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 24%;*/
+}
+
+
+#speakease .secondfont {
+  /* Learning Spanish doe: */
+  font-family: Lora-Italic;
+  font-size: 15px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  line-height: 18px;
+
+  /*font-family: Lora-BoldItalic;
+  font-size: 36px;
+  color: #FFFFFF;
+  letter-spacing: 8px;
+  line-height: 47px;
+	*/
+
+}
+
+@media only screen and (max-width : 768px) {
+#speakease .firstfont {
+	font-size: 15vw;
+	top: 18%;
+  left: 10%;
+}
+
+
+#speakease .secondfont {
+	font-size: 4vw;
+  left: 15%;
+}
+}
+
+/*-----End Media Query------*/
+
+#speakease .context {
+  font-family: Montserrat, sans-serif;
+  color: white;
+  font-size: .6em;
+  line-height: 2em;
+  margin: 12rem 0 0;
+  padding: 0 5rem 0 5rem;
+  letter-spacing: 3px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+#speakease a {
+	color: olive;
+}
+
+#speakease a:hover {
+	text-decoration: none;
+	color: white;
+}
